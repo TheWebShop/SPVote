@@ -2,8 +2,8 @@ SPVote
 ======
 
 Voting in SharePoint 2010 done with angularJS  
-Depends: jQueryUI, ngResource
-###Usage###
+Depends: jQueryUI, [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource)
+####Usage####
 
 Your view/voteCtrl will contain any amount of:
 ```
@@ -12,9 +12,10 @@ Your view/voteCtrl will contain any amount of:
 The vote button(s) will call back to SP's list, either writing a new vote (if none exist) or update your
 vote (if one exists).  
   
-### TO DO ###
+#### TO DO ####
 Lots. This was very quick and dirty implimentation.  
 - Genericize the setting vote list
 - Some kind of error handling(!)
 - Better abstraction of user notifications
 - Drop jQuery
+- Turn down the n00b
